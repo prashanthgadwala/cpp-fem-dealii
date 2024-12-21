@@ -1,0 +1,7 @@
+\form#0:$ \mathbf{F} $
+\form#1:$ \mu $
+\form#2:$ \lambda $
+\form#3:$ \mathbf{d} $
+\form#4:$ \mathbf{d} \Psi $
+\form#5:$ \Psi^{NH} \mathbf{C} $
+\form#6:$ \Psi^{NH}\left( \mathbf{C} \right) = \frac{\mu}{2} \left[ I_C - 3 \right] - \mu {ln}\left( J\right) + \frac{\lambda}{2} {ln}^2 \left( J \right) $
