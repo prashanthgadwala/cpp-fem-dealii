@@ -8,21 +8,10 @@
  * templates are used to compute different strain and stress measures 
  * for Neo-Hookean material (hyperelasticity).
  * For now a deformation gradient F is given and passed to an instance
- * of the class "NeoHookeanMaterial". Your task is to complete the code
- * in the marked areas using the definitions discussed in the class and 
- * during the exercise
- * Look out for the following
- * 	
- * //BEGIN - INSERT YOUR CODE HERE
-
-   //END - INSERT YOUR CODE HERE	
- *
- * which indicates where you should complete the code
- 
+ * of the class "NeoHookeanMaterial".
  * Author: Dominic Soldner, FAU Erlangen-Nuremberg, 2021
  
  */
-
 
 
 #include "StrainMeasures.h"
@@ -30,8 +19,6 @@
 
 #include <iostream>
 #include <deal.II/base/tensor.h>
-
-
 
 
 
@@ -75,13 +62,7 @@ int main ()
 	std::cout<<"KirchhoffStress: \t"<<testmaterial.get_KirchhoffStress(DefoGrad)<<std::endl;
 	std::cout<<"PiolaStress: \t"<<testmaterial.get_PiolaStress(DefoGrad)<<std::endl;
 	std::cout<<"2ndPiolaKirchhoffStress: \t"<<testmaterial.get_2ndPiolaKirchhoffStress(DefoGrad)<<std::endl;
-	//BEGIN - INSERT YOUR CODE HERE
 
-	
-	
-	
-    //END - INSERT YOUR CODE HERE	
-   
 	std::cout<<"\n\n"<<std::endl;
 
     //------------------------------------------------
