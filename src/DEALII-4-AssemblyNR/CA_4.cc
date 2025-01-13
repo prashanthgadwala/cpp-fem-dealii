@@ -58,6 +58,8 @@ using namespace dealii;
  *  
 */
 
+
+
 template <int dim>
 class Solid
 {
@@ -464,7 +466,7 @@ void Solid<dim>::make_constraints(const int &it_nr)
 	{
 		VectorTools::interpolate_boundary_values(dof_handler_ref,
 												boundary_id,
-												ZeroFunction<dim>(dim),
+												Functions::ZeroFunction<dim>(dim),
 												constraints,
 												fe.component_mask(displacement));
 	}
@@ -472,7 +474,7 @@ void Solid<dim>::make_constraints(const int &it_nr)
 	{
 		VectorTools::interpolate_boundary_values(dof_handler_ref,
 												boundary_id,
-												ZeroFunction<dim>(dim),
+												Functions::ZeroFunction<dim>(dim),
 												constraints,
 												fe.component_mask(displacement));	
 	}

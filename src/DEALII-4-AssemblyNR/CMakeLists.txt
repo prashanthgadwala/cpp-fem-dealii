@@ -3,7 +3,7 @@
 ##
 
 # Set the name of the project and target:
-SET(TARGET "CA_4_solution")
+SET(TARGET "CA_4")
 
 
 # Declare all source files the target consists of. Here, this is only

@@ -65,7 +65,7 @@ The general workflow involves using CMake to generate Makefiles, which are then 
 3. **Generate Makefiles using CMake**:
     - Run CMake to generate the Makefiles:
         ```sh
-        cmake .
+        cmake ..
         ```
 
 4. **Compile the Program**:
